@@ -1,16 +1,39 @@
 import japan from "./japan.png"
+import annai from "./annai.png";
+import stock from "./stock.png";
+import browsepad from "./B.png";
 
 export const projects = [
     {
         id: 1,
-        title: "F1 Api",
-        img: "https://i.pinimg.com/originals/e8/25/06/e82506dae1563923e4e4bb5ce5fa070f.jpg"
-    }, 
+        title: "Browsepad",
+        img: browsepad,
+        link: "https://github.com/Cury-Sohoni-Lau/browsepad"
+    },
     {
         id: 2,
         title: "VisitJapan",
-        img: japan
+        img: japan,
+        link: "https://github.com/rituraj8503/Visit-Japan"
     },
+    {
+        id: 3,
+        title: "Annai",
+        img: annai,
+        link: "https://github.com/rituraj8503/Annai-"
+    },
+    {
+        id: 4,
+        title: "Stock Start",
+        img: stock,
+        link: "https://github.com/rituraj8503/StockStart"
+    }, 
+    {
+        id: 5,
+        title: "F1 Api",
+        img: "https://i.pinimg.com/originals/e8/25/06/e82506dae1563923e4e4bb5ce5fa070f.jpg",
+        link: "https://github.com/rituraj8503/f1-solo-api-project"
+    }
 ];
 
 export const softwareSkills = [
@@ -66,11 +89,13 @@ export const volunteerAndLeadership = [
         id: 1,
         title: "CIRCLE UW Board",
         img: "https://pbs.twimg.com/profile_images/1174397718900269059/TJvNpvhE.jpg",
+        link: "https://www.washington.edu/circle/"
     },
     {
         id: 2, 
-        title: "FIUTS Board",
+        title: "FIUTS Student Board",
         img: "https://images.squarespace-cdn.com/content/v1/5b390ebb7e3c3a94b302e525/1535482774563-A4I0I7XCA1VBKLNP6RO3/FIUTS+Logo.png?format=1000w",
+        link: "https://www.fiuts.org/"
     },
 ];
 
@@ -78,12 +103,14 @@ export const nonAcademicPursuits = [
     {
         id: 1,
         title: "Speed Cubing",
-        img: "https://m.media-amazon.com/images/I/71RzKYJZ1lL._AC_SL1500_.jpg"
+        img: "https://m.media-amazon.com/images/I/71RzKYJZ1lL._AC_SL1500_.jpg",
+        link: "https://www.worldcubeassociation.org/persons/2012SOHO01"
     }, 
     {
         id: 2,
         title: "Varsity Ensemble",
-        img: "https://i.ytimg.com/vi/EtxqfazIf7k/mqdefault.jpg"
+        img: "https://i.ytimg.com/vi/EtxqfazIf7k/mqdefault.jpg",
+        link: "https://www.youtube.com/watch?v=EtxqfazIf7k&ab_channel=tibicci"
     },
 ];
 
@@ -91,11 +118,13 @@ export const technicalExperience = [
     {
         id: 1,
         title: "KPIT Intern",
-        img: "https://m.economictimes.com/thumb/msid-82307709,width-3594,height-2700,resizemode-4,imgsize-731256/kpit-technologies.jpg"
+        img: "https://m.economictimes.com/thumb/msid-82307709,width-3594,height-2700,resizemode-4,imgsize-731256/kpit-technologies.jpg",
+        link: "https://www.kpit.com/"
     }, 
     {
         id: 2,
         title: "Microsoft Mentorship",
-        img: "http://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4OAgf?ver=6a31"
+        img: "http://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4OAgf?ver=6a31",
+        link: "https://www.microsoft.com/en-us/"
     },
 ];

@@ -7,11 +7,12 @@ import {
     softwareSkills,
     volunteerAndLeadership,
     nonAcademicPursuits,
-    technicalExperience} from "../../../data";
+    technicalExperience
+} from "../../../data";
 
 export default function Portfolio() {
-    const [selected, setSelected] = useState("featured"); 
-    const [data, setData] = useState([]); 
+    const [selected, setSelected] = useState("featured");
+    const [data, setData] = useState([]);
     const list = [
         {
             id: "featured",
@@ -36,23 +37,23 @@ export default function Portfolio() {
     ];
 
     useEffect(() => {
-        switch(selected) {
-            case "featured": 
+        switch (selected) {
+            case "featured":
                 setData(projects)
                 break;
-            case "web": 
+            case "web":
                 setData(softwareSkills)
                 break;
-            case "mobile": 
+            case "mobile":
                 setData(volunteerAndLeadership)
                 break;
-            case "design": 
+            case "design":
                 setData(nonAcademicPursuits)
                 break;
-            case "content": 
+            case "content":
                 setData(technicalExperience)
-                break; 
-            default: 
+                break;
+            default:
                 setData(projects)
         }
 
@@ -62,15 +63,15 @@ export default function Portfolio() {
             <h1>Portfolio</h1>
             <ul>
                 {list.map((item) => {
-                   return <PortfolioList title={item.title} active={selected === item.id} setSelected={setSelected} id={item.id}/> 
+                    return <PortfolioList title={item.title} active={selected === item.id} setSelected={setSelected} id={item.id} />
                 })}
             </ul>
             <div className="container">
                 {data.map((d) => (
-                    <div className="item">
-                        <img src={d.img} alt=""/>
+                    <a href={d.link}><div href={d.link} className="item">
+                        <img src={d.img} alt="" />
                         <h3>{d.title}</h3>
-                    </div>
+                    </div></a>
                 ))}
             </div>
         </div>

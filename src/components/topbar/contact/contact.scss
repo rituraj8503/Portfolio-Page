@@ -62,4 +62,19 @@
             color: green;
         }
     }
+
+    button {
+        width: 150px;
+        height: 30px;
+        color: white;
+        background-color: crimson;
+        border: none;
+        border-radius: 10px;
+        font-weight: 500;
+        cursor: pointer;
+
+        &:focus{
+            outline: none;
+        }
+    }
 }

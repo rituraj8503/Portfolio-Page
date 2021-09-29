@@ -7,7 +7,7 @@ export default function Intro() {
     
     useEffect(() => {
         init(textRef.current, {
-             strings: ['Computer Science Student', 'UWの学生', 'Un étudiant d\'informatique à UW', "Can speak 5 languages"],
+             strings: ['Computer Science Student at UW', 'UWの学生', 'Un étudiant d\'informatique à UW'],
              backDelay: 1500,
              backSpeed: 60,
              showCursor: false, 
